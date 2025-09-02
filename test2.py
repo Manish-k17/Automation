@@ -28,8 +28,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 # env_vars = dotenv_values(".env")
 # GroqAPIKey = env_vars.get("GroqAPIKey")
 # WhatsAppNumber = env_vars.get("WhatsAppNumber") # Added for WhatsApp
-GroqAPIKey = "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"
-WhatsAppNumber = "+919876543210" # Replace with an actual number or load from .env
+GroqAPIKey = ""
+WhatsAppNumber = "" # Replace with an actual number or load from .env
 
 classes = ["zCubwf", "hgKELc", "LTKOO SY7ric", "ZOLcW", "gsrt vk_bk FzvWSb YwPhnf", "pclqee", "tw-Data-text tw-text-small tw-ta",
            "IZ6rdc", "05uR6d LTKOO", "vlzY6d", "webanswers-webanswers_table_webanswers-table", "dDoNo ikb4Bb gsrt", "sXLa0e",
@@ -562,4 +562,5 @@ if __name__ == "__main__":
     ]
     
     print("Testing automation with Groq parsing...")
+
     asyncio.run(Automation(test_commands))
